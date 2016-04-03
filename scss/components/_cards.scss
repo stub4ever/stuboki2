@@ -1,0 +1,96 @@
+.content-cards-container {
+  margin: 50px 0;
+}
+
+.content-card {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  height: 266.67px;
+  padding: 1px 0;
+}
+.detail-card-project {
+  padding: 0 40px;
+  p.category {
+    font-weight: 600;
+    color: $white;
+  }
+  p.project-description {
+    padding: 20px 0;
+    color: $white;
+  }
+  a.more-button {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    font-weight: 600;
+    display: block;
+    border: solid 1px $white;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    color: $white;
+  }
+}
+
+.order-2 {
+  order: 2;
+}
+
+.image-card-project {
+  padding: 0 25px;
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  .black-border{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    padding: 10px;
+    position: relative;
+    img {
+      min-width: 350px;
+      width: 100%;
+    }
+    a.img-card-link {
+      background-color: $black;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+      margin: 10px;
+      -webkit-transition: all 500ms;
+      -moz-transition: all 500ms;
+      -ms-transition: all 500ms;
+      -o-transition: all 500ms;
+      transition: all 500ms;
+      &:hover {
+        opacity: 0.1;
+      }
+    }
+    p.brand-name {
+     position: absolute;
+     font-size: 12px;
+     top: 175px;
+     display: block;
+     background-color: $white;
+     padding: 10px 20px;
+     color: $dark-black;
+     font-weight: 600;
+     z-index: 2;
+   }
+ }
+}
+
+.content-card-project {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 0 0 50%;
+  background-color: $dark-black;
+}
