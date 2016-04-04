@@ -69,12 +69,12 @@ body {
   width: 100%;
   bottom: 0;
   background-image: linear-gradient(-225deg, rgba(30, 30, 30, 0.3) 30%, rgba(46, 46, 46, 0.5) 80%); }
-  @media (max-width: 755px) {
+  @media (max-width: 749px) {
     .video-banner-footer {
-      min-height: 53%; } }
-  @media (max-width: 604px) {
+      min-height: 56%; } }
+  @media (max-width: 590px) {
     .video-banner-footer {
-      min-height: 68%; } }
+      min-height: 70%; } }
 
 .text-banner {
   text-align: center;
