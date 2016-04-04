@@ -151,7 +151,7 @@ body {
       padding: 30px 40px; } }
   @media (max-width: 500px) {
     .detail-card-project {
-      padding: 30px 10px; } }
+      padding: 20px 10px 10px 0; } }
   .detail-card-project p.brand-name {
     font-weight: 600;
     color: #C1AF92;
@@ -186,9 +186,6 @@ body {
     -ms-transition: all 500ms;
     -o-transition: all 500ms;
     transition: all 500ms; }
-    @media (max-width: 500px) {
-      .detail-card-project a.more-button {
-        margin: 0 10px; } }
     .detail-card-project a.more-button:hover {
       color: #F7F7F7;
       border: solid 1px #F7F7F7; }
