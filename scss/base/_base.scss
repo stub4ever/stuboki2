@@ -19,6 +19,10 @@ body {
   .wrapper-25 {
     flex: 0 0 25%;
     height: 100%;
+
+    @media (max-width: 1118px) {
+      display: none;
+    }
   }
 
   .wrapper-50 {
@@ -29,6 +33,10 @@ body {
   .wrapper-75 {
     flex: 0 0 75%;
     height: 100%;
+
+    @media (max-width: 1118px) {
+      flex: 0 0 100%;
+    }
   }
 }
 

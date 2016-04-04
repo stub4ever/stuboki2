@@ -8,9 +8,22 @@
   display: flex;
   height: 266.67px;
   padding: 1px 0;
+
+  @media (max-width: 848px) {
+    flex-direction: column;
+    height: 100%;
+  }
 }
 .detail-card-project {
   padding: 0 40px;
+
+  @media (max-width: 848px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+  }
+
   p.category {
     font-weight: 600;
     color: $white;
@@ -18,6 +31,10 @@
   p.project-description {
     padding: 20px 0;
     color: $white;
+
+    @media (max-width: 848px) {
+      padding-right: 20px;
+    }
   }
   a.more-button {
     box-shadow: 0 1px 2px rgba(0,0,0,0.07);
@@ -46,6 +63,11 @@
   justify-content: center;
   align-items: center;
   background-color: $white;
+
+  @media (max-width: 848px) {
+    padding: 45px 25px;
+    flex: 0 0 100%;
+  }
   .black-border{
     box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     padding: 10px;
@@ -53,6 +75,10 @@
     img {
       min-width: 350px;
       width: 100%;
+
+      @media (max-width: 500px) {
+        min-width: 320px;
+      }
     }
     a.img-card-link {
       background-color: $black;
@@ -82,8 +108,11 @@
      color: $dark-black;
      font-weight: 600;
      z-index: 2;
-   }
- }
+     @media (max-width: 500px) {
+      top: 156px;
+    }
+  }
+}
 }
 
 .content-card-project {
@@ -93,4 +122,8 @@
   flex-direction: column;
   flex: 0 0 50%;
   background-color: $dark-black;
+
+  @media (max-width: 848px) {
+    margin-bottom: 20px
+  }
 }
