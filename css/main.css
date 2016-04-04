@@ -148,7 +148,7 @@ body {
       justify-content: center;
       align-items: center;
       padding: 30px 40px; } }
-  .detail-card-project p.category {
+  .detail-card-project p.brand-name {
     font-weight: 600;
     color: #F7F7F7; }
   .detail-card-project p.project-description {
@@ -211,7 +211,7 @@ body {
       transition: all 500ms; }
       .image-card-project .black-border a.img-card-link:hover {
         opacity: 0.1; }
-    .image-card-project .black-border p.brand-name {
+    .image-card-project .black-border p.date-project {
       position: absolute;
       font-size: 12px;
       top: 175px;
@@ -219,10 +219,10 @@ body {
       background-color: #F7F7F7;
       padding: 10px 20px;
       color: #2F3440;
-      font-weight: 600;
+      font-weight: 400;
       z-index: 2; }
       @media (max-width: 500px) {
-        .image-card-project .black-border p.brand-name {
+        .image-card-project .black-border p.date-project {
           top: 156px; } }
 
 .content-card-project {

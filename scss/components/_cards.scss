@@ -24,7 +24,7 @@
     padding: 30px 40px;
   }
 
-  p.category {
+  p.brand-name {
     font-weight: 600;
     color: $white;
   }
@@ -98,7 +98,7 @@
         opacity: 0.1;
       }
     }
-    p.brand-name {
+    p.date-project {
      position: absolute;
      font-size: 12px;
      top: 175px;
@@ -106,7 +106,7 @@
      background-color: $white;
      padding: 10px 20px;
      color: $dark-black;
-     font-weight: 600;
+     font-weight: 400;
      z-index: 2;
      @media (max-width: 500px) {
       top: 156px;
